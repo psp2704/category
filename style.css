@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    list-style-type: none;
+}
+
+header {
+    
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 5em;
+   
+    width: 100%;
+    background: url(/Images/gg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    background-position-y: top;
+
+
+}
+
+body {
+    background :rgba(0, 0, 0, 0.66);
+   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px 0px
+}
+
+ul {
+    background-color: rgb(156, 240, 31);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    
+}
+ul.li{
+    float: left;
+}
+
+ul a {
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 20px;
+    float: left;
+    font-size: 22px;
+    text-decoration: none;
+    border-left: 0.5px solid rgb(0, 0, 0);
+    border-right: 0.5px solid rgb(0, 0, 0);
+    border-end-end-radius: 2px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+   
+}
+
+h1 {
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(156, 240, 31);
+    font-size: 28px;
+    border-radius: 10px;
+}
+
+summary {
+    margin: 20px;
+    font-size: 25px;
+    padding: 15px 15px;  
+    
+}
+
+summary > b{
+  
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    border-radius: 8px;
+    text-shadow: 0px 0px 5px rgb(228, 8, 8);
+
+}
+
+.sum1{
+    padding-top: 32px;
+}
+
+summary:hover {
+    cursor: pointer;
+}
+
+section {
+    
+    background-color: rgb(156, 240, 31);
+    margin: 25px;
+    border-radius: 10px;
+    
+
+}
+
+img {
+
+    margin: 35px;
+    height: 250px;
+    width: 250px;
+   
+    border-radius: 50%;
+    
+   
+}
+
+img:hover {
+
+    border-radius: 15%;
+    cursor: pointer;
+    border: 2px solid black;
+    opacity: 1;
+   
+}
+
+blockquote {
+    margin: 25px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.se1 {
+    text-decoration: underline;
+    padding: 20px;
+    background-color: rgb(27, 21, 21);
+    color: white;
+    text-shadow: 0px 0px 5px greenyellow;
+}
+
+footer {
+    background-color: rgb(156, 218, 64);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+#f1 {
+    background-color: rgba(156, 218, 64, 0.603);
+}
